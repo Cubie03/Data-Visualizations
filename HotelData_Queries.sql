@@ -8,13 +8,12 @@ With Hotels as
 )
 
 --query to join all three tables 
-/* 
+
 select * from Hotels 
 left join MarketSegment
 on Hotels.market_segment = MarketSegment.market_segment
 left join MealCost
 on MealCost.meal = Hotels.meal
-*/
 
 --query to calculate hotel revenue in respect to year and type of hotel
 select 
